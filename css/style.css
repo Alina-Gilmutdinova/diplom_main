@@ -7,6 +7,7 @@
    display: flex;
    margin: 0 auto;
    margin-bottom: 47px;
+   
 }
 .page_choice {
    
@@ -36,7 +37,6 @@
    font-size: 16px;
    line-height: 117%;
 }
-
 .choice_city {
    font-size: 16px;
    line-height: 117%;
@@ -47,14 +47,13 @@
    flex-direction: column;
    background: #E4E0E9;
    width: 197px;
+   box-sizing: content-box;
    height: 353px;
 }
 .choice_column_a_train {
    margin: 58px auto 209px auto;
    align-items: center;
 }
-
-
 .choice_main_group {
    display: flex;
    flex-direction: column;
@@ -89,9 +88,8 @@
    border: 1px dashed #E5E5E5;
    width: 290px;
 }
-.choice_price_group {
-display: flex;
-
+.choice_price_group {   
+   display: flex;
    align-items: center;
    justify-content: center;
 }
@@ -137,6 +135,7 @@ line-height: 117%;
 }
 .choice_seat_quantity {
    margin: 0px 17px 0px 0px;
+   text-decoration:none;
 }
 .choice_seat_start {
    margin: 0px 15px 0px 0px;
@@ -168,8 +167,9 @@ line-height: 117%;
    border-radius: 5px;
    margin: 8px 4px 26px 3px;
 }
-.blank {
- 
+.button:active {
+   background: #E5E5E5;
+   color:#FFA800
 }
 /*---------------------------------------------part 2-----------------------------*/
 .choice_two {
